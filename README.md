@@ -4,6 +4,8 @@ Example application and continuous integration pipeline showing how to run
 Scala Play project on [Semaphore][semaphore].
 Based on [play-scala-starter-example][starter-repo].
 
+
+
 CI is based on Gradle and sbt, and configured in
 [`.semaphore/semaphore.yml`](./.semaphore/semaphore.yml).
 It runs two parallel jobs in a build matrix with different Java versions.
